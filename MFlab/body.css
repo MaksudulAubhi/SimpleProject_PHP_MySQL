@@ -1,0 +1,97 @@
+.wrapper{
+
+	height: 100%;
+
+}
+body{
+	padding: 5px;
+	margin: 5px;
+	font-family: arial;
+	
+
+}
+::selection{
+	background-color: black;
+	color: white;
+}
+header{
+	padding:2px;
+	background-color: white;
+}
+.logo{
+	width: 8%;
+
+}
+
+
+.menubar{
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color:white ;
+	font-family: Arial;
+	border-bottom: 1px solid black;
+}
+.menubar a{
+	float: left;
+	display: block;
+	padding: 16px 18px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.1em;
+}
+.menubar a:hover{
+	border-top: 2px solid black;
+}
+.search-container{
+	float: right;
+	background-color: white;
+	padding-left: 5px;
+	
+}
+
+
+footer{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+	background-color: white;
+	font-family: arial;
+	
+}
+
+footer .fa{
+	padding:10px 15px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+footer .fa:hover{
+	opacity: 0.7;
+}
+
+.lowerfooter a{
+	display: inline;
+	text-decoration: none;
+	color: black;
+	padding-right: 15px;
+	opacity: 0.7;
+}
+.lowerfooter a:hover{
+	opacity: 15;
+     color: black;
+}
+div .active{
+			border-top: 2px solid black;
+		
+}
+
+
+
+
+
+
